@@ -1,0 +1,31 @@
+- [ ] Download from 
+[] https://sourceforge.net/projects/iverilog/
+
+% tar -zxvf verilog-version.tar.gz
+
+% cd verilog-version
+
+- [ ] Fellow instructuion from
+[] https://iverilog.fandom.com/wiki/Installation_Guide
+
+% ./configure  
+
+- [ ] View the error log by(after run ./configure)
++ gvim config.log
+
+- [ ] Fix the error by installing by 
+% sudo yum install flex
+
+% sudo yum install bison
+
+% sudo yum install g++
+
+% sudo yum install gcc-c++
+
+- [ ] Try again
+% ./configure  
+
+% make  
+
+% (su to root)  # make install
+
