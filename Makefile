@@ -2,6 +2,8 @@
 # SC = iverilog
 # FLAGS = -g2005 -Wall -Wno-timescale 
 
+# v0.0.1
+
 # Change This TARGET name:
 TARGET = fzadder
 TEST = $(TARGET)Test
