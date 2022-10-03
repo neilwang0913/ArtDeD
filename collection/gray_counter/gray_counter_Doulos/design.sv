@@ -1,3 +1,7 @@
+
+/*
+[https://www.edaplayground.com/x/3pxk]
+*/
 //4 bit gray_counter
 module gray_counter(input bit clk, 
                     input bit rst,
