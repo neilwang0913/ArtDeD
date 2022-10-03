@@ -1,4 +1,9 @@
-it clk;
+/*
+[https://www.edaplayground.com/x/3pxk]
+*/
+//testbench
+module tb;
+  bit clk;
 bit rst;
 wire [3:0] bcd_value;
 wire [3:0] gray_count;
